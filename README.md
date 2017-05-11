@@ -4,7 +4,7 @@ This repository contains the code for programming challenge 1
 
 ## Brief Description of the Program:
 
-* This program contains two threads which share a queue.
+* This program contains two threads which shares two queues.
 * Randomizer thread generates random numbers between 1 and 100 (customizable) and sends it to the input queue.
 * Prime Thread receives the numbers from the inputQueue, checks if they are prime and writes the result to the output queue 
 * Randomizer thread then receives the result from the output queue and displays it. 
